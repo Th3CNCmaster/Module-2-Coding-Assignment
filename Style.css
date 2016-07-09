@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	font-family: arial;
+}
+div.Container {
+	float: left;
+	padding: 5%;
+}
+
+@media (max-width: 767px) {
+.Container {
+	width: 90%;
+	margin: 5%;
+	color: white;
+	background-color: red;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+#Container1 {
+
+}
+}
+@media (min-width: 992px) {
+#Container1 {
+
+}
+}
